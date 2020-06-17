@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">我爱网拍</string>
+    <string name="cp_search_hint_text">城市中文名或拼音</string>
+    <string name="cp_no_result">没有找到，换个词试试~</string>
+    <string name="third_party_login">第三方账号登录</string>
+    <string name="login_password">账号密码登录</string>
+    <string name="register_account">注册</string>
+    <string name="please_enter_your_account_number">请输入账号</string>
+    <string name="please_enter_your_number">请输入手机号</string>
+    <string name="please_input_a_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="login_msm">短信快捷登录</string>
+    <string name="login_welcome">欢迎回来！</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="find_password">找回密码</string>
+    <string name="please_enter_your_bind_phone_number">请输入绑定手机号</string>
+    <string name="please_enter_your_cell_phone_number">请输入注册手机号</string>
+    <string name="please_enter_the_verification_code">请输入验证码</string>
+    <string name="get_the_authentication_code">发送验证码</string>
+    <string name="please_enter_a_new_password">请设置新登录密码</string>
+    <string name="determine_modifications">确认修改</string>
+    <string name="phone_register">手机号注册</string>
+    <string name="have_ccount">已有账号？</string>
+    <string name="register_re">注册</string>
+    <string name="please_enter_password">请设置登录密码</string>
+    <string name="first_page">首页</string>
+    <string name="task">任务</string>
+    <string name="message">消息</string>
+    <string name="group">群聊</string>
+    <string name="mine">我的</string>
+    <string name="login_bind">请登录账号完成绑定</string>
+    <string name="bind">绑定</string>
+    <string name="wallet">我的钱包</string>
+    <string name="wallet_expend">提现</string>
+    <string name="wallet_expend_rule">提现规则</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_enter_the_search_content">输入你要搜索的内容</string>
+    <string name="dynamic">动态</string>
+    <string name="play">娱乐</string>
+    <string name="photos_num_show">1/6</string>
+    <string name="gaoyongjin">高佣金</string>
+    <string name="benlifan">本立返</string>
+    <string name="jiekezuo">接可做</string>
+    <string name="buyanjiangquan">不验降权</string>
+    <string name="tuijianrenwu">推荐任务</string>
+    <string name="time_free">2019.01.1 11:11</string>
+    <string name="free_use">免费试用</string>
+    <string name="initiator">任务描述</string>
+    <string name="partake">本金 200</string>
+    <string name="please_enter_qq_wechat">请输入微信号、QQ号等</string>
+    <string name="please_enter_search">请输入你要查询的信息</string>
+    <string name="yongjin">佣金</string>
+    <string name="search_content">搜索内容:</string>
+    <string name="please_enter_the_search">请输入商家名或任务标题</string>
+    <string name="description_define_in_xml">加载中...</string>
+    <string name="chekan">点击查看</string>
+    <string name="cancel">取消</string>
+    <string name="submit">确定</string>
+    <string name="search">搜索</string>
+    <string name="vip">会员</string>
+    <string name="business">商家</string>
+    <string name="historic">搜索历史</string>
+    <string name="unsearch_content">未搜索到内容</string>
+    <string name="sorry">抱歉，未找到合适的用户</string>
+    <string name="please_sure">请确认输入的信息是否正确</string>
+    <string name="pingjia">评价</string>
+    <string name="put_your_impression">说说你对Ta的印象吧～</string>
+    <string name="day_task">每日任务</string>
+    <string name="idou_dui">爱豆兑换</string>
+
+
+    <string name="social_cancel">已取消</string>
+    <string name="social_share_error">分享失败</string>
+    <string name="social_error">获取信息失败</string>
+    <string name="social_qq_uninstall">QQ未安装</string>
+    <string name="social_qq_unionid_not_set">未申请unionId</string>
+    <string name="social_wx_uninstall">微信未安装</string>
+    <string name="social_wb_uninstall">微博未安装</string>
+    <string name="social_img_not_found">分享图片未找到</string>
+    <string name="social_wx_version_low_error">微信4.2以上才支持分享朋友圈，请升级微信</string>
+    <string name="social_error_appid_empty">appId或appSecret或redirectUrl为空</string>
+
+    <!--// 云通信-->
+    <string name="chat_top">置顶聊天</string>
+    <string name="chat_delete">删除聊天</string>
+    <string name="quit_chat_top">取消置顶</string>
+
+    <!--// 登录相关-->
+    <string name="account">用户名</string>
+    <string name="password">密码</string>
+
+    <!--// "我"相关-->
+    <string name="profile">我</string>
+    <string name="id">账号：%1$s</string>
+    <string name="modify_user_icon">修改头像</string>
+    <string name="modify_nick_name">修改昵称</string>
+    <string name="modify_signature">修改个性签名</string>
+    <string name="add_rule">加我为好友时</string>
+    <string name="allow_type_allow_any">允许任何人</string>
+    <string name="allow_type_deny_any">拒绝任何人</string>
+    <string name="allow_type_need_confirm">需要验证</string>
+    <string name="exit">退出登录</string>
+    <string name="about_im">关于即时通信IM</string>
+
+    <!--// 主页Tab相关-->
+    <string name="tab_contact_tab_text">通讯录</string>
+    <string name="tab_conversation_tab_text">消息</string>
+    <string name="tab_profile_tab_text">我</string>
+
+    <!--// "+"menu相关-->
+    <string name="add_friend">添加朋友</string>
+    <string name="add_good_friend">添加好友</string>
+    <string name="friend_info">好友信息</string>
+    <string name="add_group">添加群聊</string>
+    <string name="start_conversation">发起会话</string>
+    <string name="create_group_chat">创建群聊</string>
+    <string name="create_chat_room">创建聊天室</string>
+    <string name="create_private_group">创建讨论组</string>
+    <string name="hint_add_user_id">请输入ID</string>
+    <string name="hint_add_wording">请输入验证消息</string>
+    <string name="contact_add">添加</string>
+    <string name="user_id">对方ID</string>
+    <string name="add_wording">验证消息</string>
+
+    <!--// 群信息相关-->
+    <string name="tips_empty_group_member">请选择群成员</string>
+    <string name="tips_empty_group_type">请选择加群方式</string>
+    <string name="no_friend_apply">暂无好友申请</string>
+    <string name="no_friend_msg">暂无好友消息</string>
+    <string name="group_apply_tips">%1$d 条入群申请</string>
+
+    <!--// 新朋友-->
+    <string name="request_agree">接受</string>
+    <string name="request_accepted">已添加</string>
+    <string name="request_waiting">等待验证</string>
+
+    <string name="test_custom_action">自定义消息</string>
+    <string name="test_custom_message">查看详情>></string>
+
+
+    <!--//carsh-->
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">发生意外错误。给您带来不便，敬请原谅。</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重启App</string>
+    <string name="customactivityoncrash_error_activity_close_app">关闭App</string>
+    <string name="customactivityoncrash_error_activity_error_details">错误详情</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">错误详情</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">复制到剪贴板</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">复制到剪贴板</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">错误日志</string>
+
+    <!--selectpic-->
+    <string name="ps_lib_name">PicSelector</string>
+    <string name="ps_not_support">暂时不支持该类型</string>
+    <string name="ps_title_pic">图片</string>
+    <string name="ps_cancel">取消</string>
+    <string name="ps_ensure">完成</string>
+    <string name="ps_ensure_single">使用</string>
+    <string name="ps_all_image">所有图片</string>
+    <string name="ps_review">预览</string>
+    <string name="ps_review_count">预览(%1$d)</string>
+    <string name="ps_max_count_tips">你最多只能选择%1$s张照片</string>
+    <string name="ps_cant_add">已达到最大数量</string>
+    <string name="ps_review_edit">编辑</string>
+    <string name="ps_review_choose">选择</string>
+    <string name="ps_ensure_count">完成(%1$d/%2$d)</string>
+    <string name="ps_title_pic_count">%1$d/%2$d</string>
+    <string name="ps_loading">加载中...</string>
+    <string name="ps_image_count">%1$d 张</string>
+    <string name="copy"><u>复制</u></string>
+    <string name="search_hint_text"> 请输入要搜索的内容</string>
+    <string name="search_hint_text2"> 搜索</string>
+    <string name="title_activity_send_location">Map</string>
+    <string name="tencent_map_key">AZ7BZ-JQCLK-5WNJV-AS4R7-PVOAF-IUF74</string>
+    <string name="web_service_key">Zmx5bw3spHdG8o8Hd3SHpJfKGYlIwoY</string>
+</resources>

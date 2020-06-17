@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <!-- {@deprecated Use civ_circlebackground_color instead.} -->
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseIjkVideoView">
+        <attr name="looping" format="boolean" />
+        <attr name="autoRotate" format="boolean" />
+        <attr name="enableAudioFocus" format="boolean" />
+        <attr name="enableMediaCodec" format="boolean" />
+        <attr name="usingSurfaceView" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MyHeartView">
+        <attr name="text" format="string" />
+        <attr name="startChange" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ParallaxViewPager">
+        <attr name="mode">
+            <enum name="left_overlay" value="0" />
+            <enum name="right_overlay" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="outset" format="fraction|dimension" />
+        <attr name="interpolator" format="reference" />
+        <attr name="shadow_width" format="dimension" />
+        <attr name="left_shadow" format="reference" />
+        <attr name="right_shadow" format="reference" />
+    </declare-styleable>
+
+
+    <attr name="cpCancelTextSize" format="dimension|reference" />
+    <attr name="cpCancelTextColor" format="color|reference" />
+
+    <attr name="cpClearTextIcon" format="reference" />
+    <attr name="cpSearchTextSize" format="dimension|reference" />
+    <attr name="cpSearchTextColor" format="color|reference" />
+    <attr name="cpSearchHintText" format="string|reference" />
+    <attr name="cpSearchHintTextColor" format="color|reference" />
+    <attr name="cpSearchCursorDrawable" format="reference" />
+
+    <attr name="cpListItemTextSize" format="dimension|reference" />
+    <attr name="cpListItemTextColor" format="color|reference" />
+    <attr name="cpListItemHeight" format="dimension|reference" />
+
+    <attr name="cpEmptyIcon" format="reference" />
+    <attr name="cpEmptyIconWidth" format="dimension|reference" />
+    <attr name="cpEmptyIconHeight" format="dimension|reference" />
+    <attr name="cpEmptyText" format="string|reference" />
+    <attr name="cpEmptyTextSize" format="dimension|reference" />
+    <attr name="cpEmptyTextColor" format="color|reference" />
+
+    <attr name="cpGridItemBackground" format="color|reference" />
+    <attr name="cpGridItemSpace" format="reference" />
+
+    <attr name="cpSectionHeight" format="reference" />
+    <attr name="cpSectionTextSize" format="reference" />
+    <attr name="cpSectionTextColor" format="reference" />
+    <attr name="cpSectionBackground" format="reference" />
+
+    <attr name="cpIndexBarTextSize" format="reference" />
+    <attr name="cpIndexBarNormalTextColor" format="reference" />
+    <attr name="cpIndexBarSelectedTextColor" format="reference" />
+
+    <attr name="cpOverlayWidth" format="dimension|reference" />
+    <attr name="cpOverlayHeight" format="dimension|reference" />
+    <attr name="cpOverlayTextSize" format="dimension|reference" />
+    <attr name="cpOverlayTextColor" format="color|reference" />
+    <attr name="cpOverlayBackground" format="color|reference" />
+    <!--name dissame-->
+    <attr name="texte" format="string|reference" />
+    <attr name="textColor" format="color|reference" />
+    <attr name="textSize" format="dimension|reference" />
+    <attr name="bgColor" format="color|reference" />
+
+    <declare-styleable name="CustomView">
+        <attr name="texte" />
+        <attr name="textColor" />
+        <attr name="textSize" />
+        <attr name="bgColor" />
+    </declare-styleable>
+
+    <!--    banner recycle-->
+    <declare-styleable name="RecyclerBanner">
+        <attr name="autoPlaying" format="boolean" />
+        <attr name="playInterval" format="integer" />
+        <attr name="indicatorSelected" format="color|reference" />
+        <attr name="indicatorUnselected" format="color|reference" />
+        <attr name="showIndicator" format="boolean" />
+        <attr name="indicatorSize" format="dimension|reference" />
+        <attr name="indicatorSpace" format="dimension|reference" />
+        <attr name="indicatorMargin" format="dimension|reference" />
+        <attr name="indicatorGravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!--自定义倾斜45°的TextView的自定义属性-->
+    <declare-styleable name="SlantedTextView">
+        <!--倾斜文字角度-->
+        <attr name="slantedDegree" format="integer" />
+        <!--倾斜背景颜色-->
+        <attr name="slantedBackgroundColor" format="color" />
+        <!--倾斜文字颜色-->
+        <attr name="slantedTextColor" format="color" />
+        <!--倾斜文字大小-->
+        <attr name="slantedTextSize" format="dimension" />
+        <!--倾斜文字内容-->
+        <attr name="slantedText" format="string" />
+        <!--倾斜背景 边长距离-->
+        <attr name="slantedLength" format="dimension" />
+        <!--倾斜模式-->
+        <attr name="slantedMode" format="enum">
+            <!--左上角倾斜模式-->
+            <enum name="left" value="0" />
+            <!--右上角倾斜模式-->
+            <enum name="right" value="1" />
+            <!--左下角倾斜模式-->
+            <enum name="left_bottom" value="2" />
+            <!--右下角倾斜模式-->
+            <enum name="right_bottom" value="3" />
+            <!--左上角倾斜三角形模式-->
+            <enum name="left_triangle" value="4" />
+            <!--右上角倾斜三角形模式-->
+            <enum name="right_triangle" value="5" />
+            <!--左下角倾斜三角形模式-->
+            <enum name="left_bottom_triangle" value="6" />
+            <!--右下角倾斜三角形模式-->
+            <enum name="right_bottom_triangle" value="7" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ShadowRelativeLayout">
+        <attr name="shadow_color" format="color" />
+        <attr name="shadow_radius" format="dimension" />
+        <attr name="shadow_blur" format="dimension" />
+        <attr name="shadow_dx" format="dimension" />
+        <attr name="shadow_dy" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RatingBar">
+        <!--尺寸值-->
+        <attr name="starImageSize" format="dimension" />
+        <!--星星间距-->
+        <attr name="starPadding" format="dimension" />
+        <!--星星总数-->
+        <attr name="starCount" format="integer" />
+        <!--空白的星星资源文件值-->
+        <attr name="starEmpty" format="reference" />
+        <!--满星资源文件值-->
+        <attr name="starFill" format="reference" />
+        <!--半星资源文件值-->
+        <attr name="starHalf" format="reference" />
+        <!--是否可点击boolean值-->
+        <attr name="clickable" format="boolean" />
+        <!--当前进度float值-->
+        <attr name="starStep" format="float" />
+        <!--每次进度方式的值，整星还是半星-->
+        <attr name="stepSize">
+            <enum name="Half" value="0" />
+            <enum name="Full" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--底部阴影框自定义-->
+    <declare-styleable name="ShadowContainer">
+        <attr name="containerShadowColor" format="color" />
+        <attr name="containerShadowRadius" format="dimension" />
+        <attr name="containerShadowTopRightRadius" format="dimension" />
+        <attr name="containerDeltaLength" format="dimension" />
+        <attr name="containerDeltaLengthLeft" format="dimension" />
+        <attr name="containerDeltaLengthRight" format="dimension" />
+        <attr name="containerDeltaLengthTop" format="dimension" />
+        <attr name="containerDeltaLengthButton" format="dimension" />
+        <attr name="containerCornerRadius" format="dimension" />
+        <attr name="deltaX" format="dimension" />
+        <attr name="deltaY" format="dimension" />
+        <attr name="enable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TrackView">
+        <attr name="inner_length" format="dimension" />
+        <attr name="inner_distance" format="dimension" />
+        <attr name="inner_stroke_width" format="dimension" />
+        <attr name="inner_stroke_color" format="color" />
+        <attr name="out_stroke_color" format="color" />
+        <attr name="out_stroke_width" format="dimension" />
+        <attr name="inner_content_color" format="color" />
+        <attr name="inner_text" format="string" />
+        <attr name="inner_text_color" format="color" />
+        <attr name="inner_text_size" format="dimension" />
+        <attr name="blank_left" format="dimension" />
+        <attr name="blank_right" format="dimension" />
+        <attr name="blank_top" format="dimension" />
+        <attr name="blank_bottom" format="dimension" />
+    </declare-styleable>
+
+    <!--selectimage-->
+    <declare-styleable name="SubsamplingScaleImageView">
+        <attr name="src" format="reference" />
+        <attr name="assetName" format="string" />
+        <attr name="panEnabled" format="boolean" />
+        <attr name="zoomEnabled" format="boolean" />
+        <attr name="quickScaleEnabled" format="boolean" />
+        <attr name="tileBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleView">
+        <attr name="ps_color" format="color|reference" />
+        <attr name="ps_radius" format="dimension" />
+    </declare-styleable>
+
+    <!--多边形图片-->
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+        <enum name="polygon" value="2" />
+    </attr>
+
+    <declare-styleable name="MultiImageView">
+        <attr name="type" />
+        <attr name="miv_border_width" format="dimension" />
+        <attr name="miv_border_color" format="color" />
+        <attr name="miv_border_overlay" format="boolean" />
+        <attr name="miv_fill_color" format="color" />
+        <attr name="miv_corner_radius" format="dimension" />
+        <attr name="miv_sides" format="integer" />
+        <attr name="miv_rotate_angle" format="float" />
+    </declare-styleable>
+
+    <!--LazyViewPager-->
+    <declare-styleable name="LazyViewPager">
+        <attr name="init_lazy_item_offset" format="float" />
+    </declare-styleable>
+
+    <!--banner指示器-->
+    <declare-styleable name="BannerIndicatorView">
+        <attr name="app_cell_radius" format="dimension"/>
+        <attr name="app_cell_margin" format="dimension"/>
+        <attr name="app_cell_count" format="integer"/>
+        <attr name="app_current_position" format="integer"/>
+        <attr name="app_selected_color" format="color|reference"/>
+        <attr name="app_normal_color" format="color|reference"/>
+        <attr name="app_indicator_style" format="enum">
+            <enum name="CIRCLE" value="0"/>
+            <enum name="RECT" value="1"/>
+        </attr>
+    </declare-styleable>
+    <!--贝塞尔曲线 过渡 指示器-->
+    <declare-styleable name="CustomIndicator">
+        <attr name="indicatorType" format="enum">
+            <enum name="scale" value="0" />
+            <enum name="gradual" value="1" />
+            <enum name="split" value="2" />
+            <enum name="scaleAndGradual" value="3" />
+        </attr>
+        <attr name="normalPointRadius" format="dimension" />
+        <attr name="selectedPointRadius" format="dimension" />
+        <attr name="normalPointColor" format="color" />
+        <attr name="selectedPointColor" format="color" />
+        <attr name="pointInterval" format="dimension" />
+    </declare-styleable>
+</resources>
